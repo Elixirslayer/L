@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { SiteData } from "./models/SiteData";
 import SiteComponent from "./components/SiteComponent";
-import Firefox from "./components/Firefox";
+// import Firefox from "./components/Firefox";
 
 export default function Home() {
     const [sites, setSites] = useState<SiteData[]>([]); //test
