@@ -29,10 +29,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: safe
-        uses: actions/checkout@v4
-        run: /usr/bin/git config --global --add safe.directory /home/runner/work/fire-home/fire-home
-      - name: Detect package manager
       - name: Checkout
         uses: actions/checkout@v4
       - name: Detect package manager
