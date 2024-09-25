@@ -43,7 +43,7 @@ export default function Home() {
     }, []);
     return (
         <>
-            <div className="h-screen w-full justify-center bg-no-repeat bg-cover bg-center flex flex-col items-center p-8" style={{backgroundImage:url(`(isGhDeployment ? basePath : "")/images/samurai_bebop.png)`)}}>
+            <div className="h-screen w-full justify-center bg-no-repeat bg-cover bg-center flex flex-col items-center p-8" style={{backgroundImage:`url(${isGhDeployment ? basePath : ""}/images/samurai_bebop.png)`}}>
 				{/* <div className="m-2 mb-16">
 					<Firefox></Firefox>
 				</div> */}
