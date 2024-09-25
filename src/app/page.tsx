@@ -6,7 +6,7 @@ import SiteComponent from "./components/SiteComponent";
 import Firefox from "./components/Firefox";
 
 export default function Home() {
-    const [sites, setSites] = useState<SiteData[]>([]);
+    const [sites, setSites] = useState<SiteData[]>([]); //test
 
     useEffect(() => {
         const sites: SiteData[] = [
@@ -88,7 +88,7 @@ export default function Home() {
                             <div key={site.Title} className="m-4">
                                 <SiteComponent siteData={site}></SiteComponent>
                             </div>
-                        );
+                        ); 
                     })}
                 </div>
             </div>
