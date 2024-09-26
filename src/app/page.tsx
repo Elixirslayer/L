@@ -3,11 +3,13 @@
 import { useEffect, useState } from "react";
 import { SiteData } from "./models/SiteData";
 import SiteComponent from "./components/SiteComponent";
+import { repoBasePath } from "./Constants";
 // import Firefox from "./components/Firefox";
 
 export default function Home() {
     const [sites, setSites] = useState<SiteData[]>([]); //test
-
+    const isGhDeployment: boolean = process.env.NODE_ENV === "production"
+    const basePath: string = repoBasePath;
     useEffect(() => {
         const sites: SiteData[] = [
             {
