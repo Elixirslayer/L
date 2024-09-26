@@ -34,11 +34,11 @@ export default function Home() {
 				Height: 150,
 				Width: 224
             },
-			{
-                ImageUrl: "/images/Instagram.png",
-                Title: "Instagram",
-				RedirectUrl: "https://instagram.com",
-            },
+			// {
+            //     ImageUrl: "/images/",
+            //     Title: "",
+			// 	RedirectUrl: "https://",
+            // },
        ];
 
         setSites(sites);
