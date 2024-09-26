@@ -35,9 +35,9 @@ export default function Home() {
 				Width: 224
             },
 			{
-                ImageUrl: "/images/youtube-music.png",
-                Title: "Youtube Music",
-				RedirectUrl: "https://music.youtube.com",
+                ImageUrl: "/images/Instagram.png",
+                Title: "Instagram",
+				RedirectUrl: "https://instagram.com",
             },
        ];
 
