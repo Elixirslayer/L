@@ -61,7 +61,7 @@ export default function Home() {
                 <div className="flex max-w-screen-2xl flex-wrap justify-center">
                     {sites.map((site) => {
                         return (
-                            <div key={site.Title} className="m-10">
+                            <div key={site.Title} className="m-4">
                                 <SiteComponent siteData={site}></SiteComponent>
                             </div>
                         ); 
