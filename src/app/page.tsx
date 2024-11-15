@@ -34,11 +34,20 @@ export default function Home() {
 				Height: 150,
 				Width: 224
             },
-			// {
-            //     ImageUrl: "/images/",
-            //     Title: "",
-			// 	RedirectUrl: "https://",
-            // },
+            {
+                ImageUrl: "/images/github.png",
+                Title: "Github",
+				RedirectUrl: "https://github.com",
+				Height: 150,
+				Width: 224
+            },
+            {
+                ImageUrl: "/images/telegram.png",
+                Title: "Telegram",
+				RedirectUrl: "https://web.telegram.org",
+				Height: 150,
+				Width: 224
+            },
        ];
 
         setSites(sites);
